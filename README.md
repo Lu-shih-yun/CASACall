@@ -1,4 +1,4 @@
 # CASACall
 
-the code will upload after paper is accepted
+The code will upload after paper is accepted
 
