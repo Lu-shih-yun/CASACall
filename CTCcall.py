@@ -14,8 +14,8 @@ print(f"Using {device} device")
 
 
 #test data path
-input_data_total = torch.from_numpy(np.load("/home/luke/TCC/data/Ecoli/test/Chunk.npy"))
-#input_data_total = torch.from_numpy(np.load("/home/luke/TCC/data/GBS/test/Chunk.npy"))
+input_data_total = torch.from_numpy(np.load("Chunk.npy"))
+
 
 input_length = len(input_data_total[0])
 model_length = input_length//8
