@@ -80,12 +80,3 @@ seq2fasta(seq)
 Time_end = time.time()
 Time_spend = Time_end-Time_start
 print(Time_spend)
-
-"""
-minimap2 -c --eqx data/Ecoli/reference/Ref_CP045741.1.fasta data/Ecoli/test/CASACall_Ecoli_test.fasta > CASACall_Ecoli_test.paf
-rebaler data/Ecoli/reference/Ref_CP045741.1.fasta data/Ecoli/test/CASACall_Ecoli_test.fasta > CASACall_Ecoli_test_assembly.fasta
-
-minimap2 -c --eqx data/GBS/reference/Ref_Streptococcus_agalactiae_CP007632.1.fasta data/GBS/test/CASACall_GBS_test.fasta > CASACall_GBS_test.paf
-rebaler data/GBS/reference/Ref_Streptococcus_agalactiae_CP007632.1.fasta data/GBS/test/CASACall_GBS_test.fasta > CASACall_GBS_test_assembly.fasta
-"""
-
