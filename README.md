@@ -9,14 +9,17 @@ pytorch == 1.11.0
 CUDA == 11.6  
 numpy == 1.26.4  
 h5py == 3.8.0  
-
 Optional software:  
 Minimap2 == 2.23  
 Rebalar == 0.2.0  
-
 ### Datasets
 In our paper, we used the Bonito dataset as the training dataset, which can be downloaded from here: https://github.com/nanoporetech/bonito  
 If you want to test your own fast5 format data, you can put the data in `preprocess/fast5_raw_signal` and use `fast5_to_chunk.py` to generate .npy format files for testing.  
+## Run
+### Train
+If you want to train the model, you can use `train_test_validation_split.py` to split the training and validation datasets and put the datasets in `preprocess/bonito_training_data/`.  
+During the training process, the link to the data set will be placed `data_path.py`.  
+You can train the model by `CTCtrain.py`  
 
-
+You can use the model `Saved_model/Saved_best_model_CASACall.pth` trained in our paper
 
