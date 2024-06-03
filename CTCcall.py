@@ -14,7 +14,7 @@ print(f"Using {device} device")
 
 
 #test data path
-input_data_total = torch.from_numpy(np.load("Chunk.npy"))
+input_data_total = torch.from_numpy(np.load("Chunk_ecoli.npy"))
 
 
 input_length = len(input_data_total[0])
