@@ -16,7 +16,7 @@ def find_HDF5(folder_dir):
                 filepathes.append(os.path.join(r, file))
     return filepathes
 
-def split_signal(fast5_data,chunk_size = 2700):
+def split_signal(fast5_data,chunk_size = 3600):
     split_raw = []
     rawpath = 'Raw/Reads/'
     try:
