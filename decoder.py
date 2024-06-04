@@ -3,7 +3,6 @@ import torch.nn.functional as F
 import torch.nn as nn
 import numpy as np
 import math
-from TorchCRF import CRF
 #out put of encoder(batch_size, channel_num, model_length)
 
 
