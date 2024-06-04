@@ -14,7 +14,7 @@ class Seq2Seq(nn.Module):
         return output
 
 def build_model(encoder, decoder, device):
-  # 建構模型
+  # build model
   model = Seq2Seq(encoder, decoder)
   #print(model)
 
@@ -33,7 +33,7 @@ class Seq2Seq_CRF(nn.Module):
         return output
     
 def build_model_CRF(encoder, decoder, device):
-  # 建構模型
+  # build model
   model = Seq2Seq_CRF(encoder, decoder)
   #print(model)
 
