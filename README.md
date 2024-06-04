@@ -22,5 +22,5 @@ If you want to train the model, you can use `train_test_validation_split.py` to 
 You can train the model using `CTCTrain.py`, and the link to the datasets will be specified in `data_path.py`  
 
 ### Test
-You can test the trained model by `CTCcall`  
+You can test the trained model by `CTCcall.py`  
 You can use the model `Saved_model/Saved_best_model_CASACall.pth` trained in our paper, or use your own trained model.  
