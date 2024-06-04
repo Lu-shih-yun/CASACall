@@ -26,5 +26,5 @@ You can test the trained model by `CTCcall.py`
 You can use the model `Saved_model/Saved_best_model_CASACall.pth` trained in our paper, or use your own trained model.  
 
 ## Reference
-Wick, R.R., Judd, L.M. and Holt, K.E. (2019) Performance of neural network basecalling tools for Oxford Nanopore sequencing. Genome biology, 20:1-10.
-Teng, H., et al. (2018) Chiron: translating nanopore raw signal directly into nucleotide sequence using deep learning. GigaScience, 7(5):giy037.
+    Wick, R.R., Judd, L.M. and Holt, K.E. (2019) Performance of neural network basecalling tools for Oxford Nanopore sequencing. Genome biology, 20:1-10.
+    Teng, H., et al. (2018) Chiron: translating nanopore raw signal directly into nucleotide sequence using deep learning. GigaScience, 7(5):giy037.
