@@ -19,7 +19,7 @@ If you want to test your own fast5 format data, you can put the data in `preproc
 ## Run
 ### Train
 If you want to train the model, you can use `train_test_validation_split.py` to split the training and validation datasets and put the datasets in `preprocess/bonito_training_data/`  
-You can train the model using `CTCTrain.py`, and the link to the datasets will be specified in `data_path.py`  
+You can train the model using `CTCTrain.py`,and the link to the datasets will be specified in `data_path.py`  
 
 ### Test
 You can test the trained model using `CTCcall.py`  
